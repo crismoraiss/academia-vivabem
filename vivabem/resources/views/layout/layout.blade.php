@@ -39,11 +39,11 @@
 </head>
 
 <body>
-    <div class="preloader">
+    {{-- <div class="preloader">
         <div class="preloader-inner">
             <span class="loader"></span>
         </div>
-    </div>
+    </div> --}}
 
 
     <div class="popup-search-box">
@@ -89,31 +89,85 @@
             <button class="menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
                 <a href="{{ asset('/') }}"><img src="../assets/img/logoVivaBem.svg"style="height: 170px; width: 210px; alt="logo></a>
+                 </div>
+                 <div class="mobile-menu">
+                          <ul>
+
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/modalidade') }}">Modalidades</a>
+                        <ul class="sub-menu">
+                            <li><a href="{{ url('/treino') }}">Treino</a></li>
+                            <li><a href="{{ url('/modalidade/musculacao') }}">Musculação</a></li>
+                            <li><a href="{{ url('/modalidade/yoga') }}">Yoga</a></li>
+                            <li><a href="{{ url('/modalidade/aerobica') }}">Aerobica</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/noticia') }}">Noticias</a>
+
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/treino') }}">Treino</a>
+
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/sobre') }}">Sobre</a>
+
+                    </li>
+                    <li>
+                        <a href="{{ asset('/contato') }}">Contato</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="mobile-menu">
-                <li class="menu-item-has-children">
-                    <a href="#">Projeto</a>
-                    <ul class="sub-menu">
-                        <li><a href="project.html">Projetos</a></li>
-                        <li><a href="project-details.html">Detalhes do Projeto</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Serviço</a>
-                    <ul class="sub-menu">
-                        <li><a href="service.html">Serviço</a></li>
-                        <li><a href="service-details.html">Detalhes do Serviço</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="sobre">Sobre</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contato</a>
-                </li>
-            </ul>
         </div>
     </div>
+
+
+
+    {{-- <!--==============================
+        Menu Móvel
+        ============================== -->
+    <div class="mobile-menu-wrapper">
+        <div class="mobile-menu-area text-center">
+            <button class="menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="{{ asset('/') }}"><img src="../assets/img/logoVivaBem.svg"style="height: 170px; width: 210px; alt="logo></a>
+                 </div>
+                 <div class="mobile-menu">
+                          <ul>
+
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/modalidade') }}">Modalidades</a>
+                        <ul class="sub-menu">
+                            <li><a href="{{ url('/treino') }}">Treino</a></li>
+                            <li><a href="{{ url('/modalidade/musculacao') }}">Musculação</a></li>
+                            <li><a href="{{ url('/modalidade/yoga') }}">Yoga</a></li>
+                            <li><a href="{{ url('/modalidade/aerobica') }}">Aerobica</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/noticias') }}">Noticias</a>
+
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/treino') }}">Treino</a>
+
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{ asset('/sobre') }}">Sobre</a>
+
+                    </li>
+                    <li>
+                        <a href="{{ asset('/contato') }}">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> --}}
 
 
 
@@ -178,7 +232,7 @@
                                     <li class="menu-item-has-children">
                                         <a href={{ url('/modalidade') }}>Modalidade</a>
                                          <ul class="sub-menu">
-                                            <li><a href={{ url('/modalidade/musculacao') }}>Musculacao</a></li>
+                                            <li><a href={{ url('/modalidade/musculacao') }}>Musculação</a></li>
                                             <li><a href={{ url('/modalidade/treinofuncional') }}>Treino Funcional</a></li>
                                             <li><a href={{ url('/modalidade/meditacao') }}>Meditação</a></li>
                                             <li><a href={{ url('/modalidade/boxe') }}>Boxe</a></li>
@@ -250,9 +304,8 @@
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
                                     <li><a href={{ url('/sobre') }}>Sobre Nós</a></li>
-                                    <li><a href="service-details.html">Nossa Missão</a></li>
-                                    <li><a href="team.html">Conheça as Equipes</a></li>
-                                    <li><a href={{ url('/') }}>Nossos Projetos</a></li>
+                                    <li><a href={{ url('/treino') }}>Nossos Treinos</a></li>
+                                    <li><a href={{ url('/noticias') }}>Noticias</a></li>
                                     <li><a href={{ url('/contato') }}>Contate-nos</a></li>
                                 </ul>
                             </div>

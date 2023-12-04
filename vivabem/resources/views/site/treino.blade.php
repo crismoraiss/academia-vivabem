@@ -39,13 +39,12 @@
 }" data-bg-src="assets/img/bg/breadcrumb-bg.png">
 
 
-  
+
 </div>
 
 
 
-
-<!--==============================
+ <!--==============================
     Área de Serviço 02
 ==============================-->
 <div class="service-area-2 space overflow-hidden">
@@ -57,10 +56,10 @@
                         <img src="../assets/img/icon/service-icon_2-1.svg" alt="img">
                     </div>
                     <div class="service-card_content">
-                        <h4 class="service-card_title h5"><a href="service-details.html">Aula na Academia</a></h4>
+                        <h4 class="service-card_title h5"><a href={{ url('modalidade') }}>Aulas da Academia</a></h4>
                         <p class="service-card_text">Treinos de alta intensidade alternando entre períodos intensos de exercício e
                             curtos períodos de recuperação...</p>
-                        <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                        <a href={{ url('modalidade') }} class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -70,10 +69,10 @@
                         <img src="../assets/img/icon/service-icon_2-2.svg" alt="img">
                     </div>
                     <div class="service-card_content">
-                        <h4 class="service-card_title h5"><a href="service-details.html">Levantamento de Peso</a></h4>
+                        <h4 class="service-card_title h5"><a href={{ url('modalidade/treinofuncional') }}>Treino Funcional</a></h4>
                         <p class="service-card_text">Treinos de alta intensidade alternando entre períodos intensos de exercício e
                             curtos períodos de recuperação...</p>
-                        <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                        <a href={{ url('modalidade/treinofuncional') }} class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -83,10 +82,10 @@
                         <img src="../assets/img/icon/service-icon_2-3.svg" alt="img">
                     </div>
                     <div class="service-card_content">
-                        <h4 class="service-card_title h5"><a href="service-details.html">Musculação</a></h4>
+                        <h4 class="service-card_title h5"><a href={{ url('modalidade/musculacao') }}>Musculação</a></h4>
                         <p class="service-card_text">Treinos de alta intensidade alternando entre períodos intensos de exercício e
                             curtos períodos de recuperação...</p>
-                        <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                        <a href={{ url('modalidade/musculacao') }} class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -96,10 +95,10 @@
                         <img src="../assets/img/icon/service-icon_2-4.svg" alt="img">
                     </div>
                     <div class="service-card_content">
-                        <h4 class="service-card_title h5"><a href="service-details.html">Aula de Boxe</a></h4>
+                        <h4 class="service-card_title h5"><a href={{ url('modalidade/boxe') }}>Aula de Boxe</a></h4>
                         <p class="service-card_text">Treinos de alta intensidade alternando entre períodos intensos de exercício e
                             curtos períodos de recuperação...</p>
-                        <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                        <a href={{ url('modalidade/boxe') }} class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -109,10 +108,10 @@
                         <img src="../assets/img/icon/service-icon_2-5.svg" alt="img">
                     </div>
                     <div class="service-card_content">
-                        <h4 class="service-card_title h5"><a href="service-details.html">Aula de Yoga Fitness</a></h4>
+                        <h4 class="service-card_title h5"><a href={{ url('modalidade/yoga') }}>Aula de Yoga Fitness</a></h4>
                         <p class="service-card_text">Treinos de alta intensidade alternando entre períodos intensos de exercício e
                             curtos períodos de recuperação...</p>
-                        <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                        <a href={{ url('modalidade/yoga') }} class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -122,16 +121,19 @@
                         <img src="../assets/img/icon/service-icon_2-6.svg" alt="img">
                     </div>
                     <div class="service-card_content">
-                        <h4 class="service-card_title h5"><a href="service-details.html">Aula de Meditação</a></h4>
+                        <h4 class="service-card_title h5"><a href={{ url('modalidade/meditacao') }}>Aula de Meditação</a></h4>
                         <p class="service-card_text">Treinos de alta intensidade alternando entre períodos intensos de exercício e
                             curtos períodos de recuperação...</p>
-                        <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                        <a href={{ url('modalidade/meditacao') }} class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
 
    <!--==============================
     Área de CTA (Call to Action)

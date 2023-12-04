@@ -52,10 +52,10 @@
                         <img src="../assets/img/icon/service-icon_2-1.svg" alt="img">
                     </div>
                     <div class="service-card_content">
-                        <h4 class="service-card_title h5"><a href="service-details.html">Aula na Academia</a></h4>
+                        <h4 class="service-card_title h5"><a href={{ url('modalidade') }}>Aulas da Academia</a></h4>
                         <p class="service-card_text">Treinos de alta intensidade alternando entre períodos intensos de exercício e
                             curtos períodos de recuperação...</p>
-                        <a href="service-details.html" class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
+                        <a href={{ url('modalidade') }} class="link-btn" tabindex="0"><i class="fas fa-arrow-right"></i> Saiba Mais</a>
                     </div>
                 </div>
             </div>

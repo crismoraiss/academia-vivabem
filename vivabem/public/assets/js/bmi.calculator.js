@@ -10,23 +10,23 @@ function calculateBMI(){
         document.bmiCalc.bmi.value = new Number(finalBmi).toFixed(2)
 
         if(finalBmi < 18.5){
-            document.bmiCalc.meaning.value = "Underweight BMI"
+            document.bmiCalc.meaning.value = "IMC Abaixo do Peso"
         }
 
         if(finalBmi > 18.5 && finalBmi < 25){
-            document.bmiCalc.meaning.value = "Normal BMI"
+            document.bmiCalc.meaning.value = "IMC Normal"
         }
 
         if(finalBmi > 25 && finalBmi < 30){
-            document.bmiCalc.meaning.value = "Overweight BMI"
+            document.bmiCalc.meaning.value = "IMC Sobrepeso"
         }
 
         if(finalBmi > 30 && finalBmi < 35){
-            document.bmiCalc.meaning.value = "Obese BMI"
+            document.bmiCalc.meaning.value = "IMC Obeso"
         }
 
         if(finalBmi > 35){
-            document.bmiCalc.meaning.value = "Extremely Obese BMI"
+            document.bmiCalc.meaning.value = "IMC Extremamente Obeso"
         }
 
     }else{

@@ -124,55 +124,6 @@
         </div>
     </div>
 
-
-
-    {{-- <!--==============================
-        Menu Móvel
-        ============================== -->
-    <div class="mobile-menu-wrapper">
-        <div class="mobile-menu-area text-center">
-            <button class="menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="{{ asset('/') }}"><img src="../assets/img/logoVivaBem.svg"style="height: 170px; width: 210px; alt="logo></a>
-                 </div>
-                 <div class="mobile-menu">
-                          <ul>
-
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="{{ asset('/modalidade') }}">Modalidades</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ url('/treino') }}">Treino</a></li>
-                            <li><a href="{{ url('/modalidade/musculacao') }}">Musculação</a></li>
-                            <li><a href="{{ url('/modalidade/yoga') }}">Yoga</a></li>
-                            <li><a href="{{ url('/modalidade/aerobica') }}">Aerobica</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="{{ asset('/noticias') }}">Noticias</a>
-
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="{{ asset('/treino') }}">Treino</a>
-
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="{{ asset('/sobre') }}">Sobre</a>
-
-                    </li>
-                    <li>
-                        <a href="{{ asset('/contato') }}">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div> --}}
-
-
-
-
-
     <header class="nav-header header-layout2">
         <div class="header-top d-lg-block d-none">
             <div class="container-fluid">
@@ -180,8 +131,8 @@
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">support@gmail.com</a></li>
-                                <li><i class="far fa-clock"></i>Seg - Sab: 8.00 am - 7.00 pm</li>
+                                <li><i class="far fa-envelope"></i><a href="academiavivabem@gmail.com">academiavivabem@gmail.com</a></li>
+                                <li><i class="far fa-clock"></i>Seg - Sab: 8.00 am - 10.00 pm</li>
                             </ul>
                         </div>
                     </div>
@@ -254,12 +205,12 @@
                         </div>
                         <div class="col-auto d-xxl-block d-none">
                             <div class="navbar-right-desc">
-                                <i class="fas fa-phone-volume"></i><a href="tel:+2590256215">+259 (0) 256 215</a>
+                                <i class="fas fa-phone-volume"></i><a href="tel:+55 11999999999">+55 (11) 999999999</a>
                             </div>
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <div class="header-button">
-                                <a href="contact.html" class="btn style2 style-r0 d-xl-block d-none">
+                                <a href={{ url('/contato') }} class="btn style2 style-r0 d-xl-block d-none">
                                     Obter um Orçamento
                                 </a>
                                 <button type="button" class="btn style-r0 btn-border3 sideMenuToggler">
@@ -287,7 +238,8 @@
                         <div class="widget footer-widget">
                             <div class="widget-about">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="../assets/img/logo-white.svg" alt="Fitmas"></a>
+                                    {{-- <a href="index.html"><img src="../assets/img/logo-white.svg" alt="Fitmas"></a> --}}
+                                    <a href="{{ asset('/') }}"><img src="../assets/img/logoVivaBem.svg"style="height: 110px; width: 210px;" alt="VivaBem"></a>
                                 </div>
                                 <p class="about-text">Uma academia, também conhecida como centro de fitness ou clube de saúde, é uma instalação dedicada à aptidão física e ao exercício, geralmente oferecendo uma variedade de atividades físicas.</p>
                                 <div class="social-btn">

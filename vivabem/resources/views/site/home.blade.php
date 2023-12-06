@@ -90,19 +90,23 @@
                                 <tbody>
                                     <tr>
                                         <th scope="row">Abaixo de 18,5</th>
-                                        <td>Status de peso</td>
+                                        <td>Abaixo do peso</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">18.5 - 24.9</th>
-                                        <td>Saudável</td>
+                                        <td>Normal</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">25.0 - 29.9</th>
-                                        <td>Excesso de peso</td>
+                                        <td>Sobrepeso</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">30,0 - Acima</th>
+                                        <th scope="row">30.0 - 34.0</th>
                                         <td>Obeso</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">35.0 - Acima</th>
+                                        <td>Extremamente Obeso</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -932,12 +936,12 @@
                         <p class="sec-text">Implemente os princípios de sobrecarga progressiva em seu treino. Aumente gradualmente o peso, as repetições ou a intensidade de seus exercícios ao longo do tempo...</p>
                     </div>
                     <div class="btn-wrap mt-40">
-                        <a href="about.html" class="btn style-r0">Agende uma Consulta</a>
+                        <a href={{ url('/contato') }} class="btn style-r0">Agende uma Consulta</a>
                         <div class="about-info-wrap style2">
                             <div class="icon"><i class="fas fa-phone"></i></div>
                             <div class="details">
                                 <p class="about-info-title">Ligue para Nós 24/7</p>
-                                <a class="about-info-link" href="tel:+25825692582">+236-3256.21456</a>
+                                <a class="about-info-link" href="tel:+5511999999999">+55 11999999999</a>
                             </div>
                         </div>
                     </div>
